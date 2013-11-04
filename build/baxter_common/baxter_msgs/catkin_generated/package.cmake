@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "baxter_msgs")
+set(baxter_msgs_MAINTAINER "Rethink Robotics Inc. <rsdk.support@rethinkrobotics.com>")
+set(baxter_msgs_DEPRECATED "")
+set(baxter_msgs_VERSION "0.6.1")
+set(baxter_msgs_BUILD_DEPENDS "message_generation" "std_msgs" "geometry_msgs")
+set(baxter_msgs_RUN_DEPENDS "message_runtime" "std_msgs" "geometry_msgs")
+set(baxter_msgs_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,8 @@
+prefix=/home/m/mico2178/baxter_ws/devel
+
+Name: baxter_msgs
+Description: Description of baxter_msgs
+Version: 0.6.1
+Cflags: -I/home/m/mico2178/baxter_ws/devel/include
+Libs: -L/home/m/mico2178/baxter_ws/devel/lib 
+Requires: std_msgs geometry_msgs

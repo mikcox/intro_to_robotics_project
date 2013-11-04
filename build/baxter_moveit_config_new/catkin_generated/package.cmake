@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "baxter_moveit_config_new")
+set(baxter_moveit_config_new_MAINTAINER "MoveIt Setup Assistant <assistant@moveit.ros.org>")
+set(baxter_moveit_config_new_DEPRECATED "")
+set(baxter_moveit_config_new_VERSION "0.2.0")
+set(baxter_moveit_config_new_BUILD_DEPENDS "baxter_description")
+set(baxter_moveit_config_new_RUN_DEPENDS "moveit_ros_move_group" "moveit_planners_ompl" "moveit_ros_visualization" "joint_state_publisher" "robot_state_publisher" "xacro" "baxter_description")
+set(baxter_moveit_config_new_BUILDTOOL_DEPENDS "catkin")

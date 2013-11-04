@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "vision_lab")
+set(vision_lab_MAINTAINER "mico2178 <mico2178@todo.todo>")
+set(vision_lab_DEPRECATED "")
+set(vision_lab_VERSION "0.0.0")
+set(vision_lab_BUILD_DEPENDS "cv_bridge" "image_transport" "roscpp" "rospy" "std_msgs")
+set(vision_lab_RUN_DEPENDS "cv_bridge" "image_transport" "roscpp" "rospy" "std_msgs")
+set(vision_lab_BUILDTOOL_DEPENDS "catkin")

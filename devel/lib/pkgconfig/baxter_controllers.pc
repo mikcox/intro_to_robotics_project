@@ -1,0 +1,8 @@
+prefix=/home/m/mico2178/baxter_ws/devel
+
+Name: baxter_controllers
+Description: Description of baxter_controllers
+Version: 0.2.1
+Cflags: -I/home/m/mico2178/baxter_ws/src/baxter/baxter_controllers/include
+Libs: -L/home/m/mico2178/baxter_ws/devel/lib -lbaxter_controllers
+Requires: controller_interface control_toolbox effort_controllers baxter_msgs

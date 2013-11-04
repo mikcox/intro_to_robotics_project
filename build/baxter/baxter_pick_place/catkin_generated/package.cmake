@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "baxter_pick_place")
+set(baxter_pick_place_MAINTAINER "Dave Coleman <davetcoleman@gmail.com>")
+set(baxter_pick_place_DEPRECATED "")
+set(baxter_pick_place_VERSION "0.2.1")
+set(baxter_pick_place_BUILD_DEPENDS "moveit_core" "moveit_ros_planning" "moveit_ros_planning_interface" "block_grasp_generator" "baxter_msgs" "geometry_msgs" "baxter_control" "roscpp")
+set(baxter_pick_place_RUN_DEPENDS "moveit_core" "moveit_ros" "moveit_ros_visualization" "moveit_ros_planning" "moveit_ros_planning_interface" "moveit_planners" "moveit_planners_ompl" "moveit_plugins" "moveit_simple_controller_manager")
+set(baxter_pick_place_BUILDTOOL_DEPENDS "catkin")

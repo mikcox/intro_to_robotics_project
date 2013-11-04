@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "baxter_gazebo")
+set(baxter_gazebo_MAINTAINER "Dave Coleman <davetcoleman@gmail.com>")
+set(baxter_gazebo_DEPRECATED "")
+set(baxter_gazebo_VERSION "0.2.1")
+set(baxter_gazebo_BUILD_DEPENDS "roscpp" "baxter_msgs" "gazebo_ros_control" "controller_manager_msgs")
+set(baxter_gazebo_RUN_DEPENDS "roscpp" "baxter_msgs" "gazebo_ros_control" "controller_manager_msgs" "baxter_description" "baxter_control" "gazebo_ros" "baxter_description" "robot_state_publisher")
+set(baxter_gazebo_BUILDTOOL_DEPENDS "catkin")

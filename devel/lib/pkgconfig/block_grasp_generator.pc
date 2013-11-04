@@ -1,0 +1,8 @@
+prefix=/home/m/mico2178/baxter_ws/devel
+
+Name: block_grasp_generator
+Description: Description of block_grasp_generator
+Version: 1.0.0
+Cflags: -I/home/m/mico2178/baxter_ws/src/block_grasp_generator/include
+Libs: -L/home/m/mico2178/baxter_ws/devel/lib -lblock_grasp_generator -lblock_grasp_generator_filter -lblock_grasp_generator_visualization_tools
+Requires: roscpp std_msgs trajectory_msgs visualization_msgs eigen_conversions moveit_ros_planning moveit_ros_planning_interface moveit_ros_robot_interaction moveit_core tf tf_conversions std_msgs

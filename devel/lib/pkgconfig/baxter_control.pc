@@ -1,0 +1,8 @@
+prefix=/home/m/mico2178/baxter_ws/devel
+
+Name: baxter_control
+Description: Description of baxter_control
+Version: 0.2.1
+Cflags: -I/home/m/mico2178/baxter_ws/src/baxter/baxter_control/include
+Libs: -L/home/m/mico2178/baxter_ws/devel/lib -lbaxter_utilities -larm_interface
+Requires: moveit_ros_planning_interface std_msgs roscpp baxter_msgs controller_manager transmission_interface hardware_interface sensor_msgs trajectory_msgs joint_limits_interface trajectory_msgs

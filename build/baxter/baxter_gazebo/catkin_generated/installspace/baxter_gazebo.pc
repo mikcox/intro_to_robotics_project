@@ -1,0 +1,8 @@
+prefix=/home/m/mico2178/baxter_ws/install
+
+Name: baxter_gazebo
+Description: Description of baxter_gazebo
+Version: 0.2.1
+Cflags: 
+Libs: -L/home/m/mico2178/baxter_ws/install/lib 
+Requires: baxter_msgs gazebo_ros_control roscpp controller_manager_msgs

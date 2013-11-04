@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "baxter_scripts")
+set(baxter_scripts_MAINTAINER "dave <dave@todo.todo>")
+set(baxter_scripts_DEPRECATED "")
+set(baxter_scripts_VERSION "0.2.1")
+set(baxter_scripts_BUILD_DEPENDS "rospy" "cv_bridge" "std_msgs")
+set(baxter_scripts_RUN_DEPENDS "rospy" "cv_bridge" "std_msgs")
+set(baxter_scripts_BUILDTOOL_DEPENDS "catkin")
