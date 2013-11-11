@@ -43,7 +43,7 @@ CMAKE_BINARY_DIR = /home/m/mico2178/baxter_ws/build
 include project/CMakeFiles/project_generate_messages_py.dir/progress.make
 
 project/CMakeFiles/project_generate_messages_py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg/_message.py
-project/CMakeFiles/project_generate_messages_py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/_adder.py
+project/CMakeFiles/project_generate_messages_py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/_painter.py
 project/CMakeFiles/project_generate_messages_py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg/__init__.py
 project/CMakeFiles/project_generate_messages_py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/__init__.py
 
@@ -53,29 +53,29 @@ project/CMakeFiles/project_generate_messages_py: /home/m/mico2178/baxter_ws/deve
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG project/message"
 	cd /home/m/mico2178/baxter_ws/build/project && ../catkin_generated/env_cached.sh /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/m/mico2178/baxter_ws/src/project/msg/message.msg -Iproject:/home/m/mico2178/baxter_ws/src/project/msg -Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg -p project -o /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg
 
-/home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/_adder.py: /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
-/home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/_adder.py: /home/m/mico2178/baxter_ws/src/project/srv/adder.srv
+/home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/_painter.py: /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
+/home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/_painter.py: /home/m/mico2178/baxter_ws/src/project/srv/painter.srv
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/m/mico2178/baxter_ws/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV project/adder"
-	cd /home/m/mico2178/baxter_ws/build/project && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/m/mico2178/baxter_ws/src/project/srv/adder.srv -Iproject:/home/m/mico2178/baxter_ws/src/project/msg -Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg -p project -o /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV project/painter"
+	cd /home/m/mico2178/baxter_ws/build/project && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/m/mico2178/baxter_ws/src/project/srv/painter.srv -Iproject:/home/m/mico2178/baxter_ws/src/project/msg -Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg -p project -o /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv
 
 /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg/__init__.py: /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
 /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg/__init__.py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg/_message.py
-/home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg/__init__.py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/_adder.py
+/home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg/__init__.py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/_painter.py
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/m/mico2178/baxter_ws/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python msg __init__.py for project"
 	cd /home/m/mico2178/baxter_ws/build/project && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg --initpy
 
 /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/__init__.py: /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
 /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/__init__.py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg/_message.py
-/home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/__init__.py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/_adder.py
+/home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/__init__.py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/_painter.py
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/m/mico2178/baxter_ws/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python srv __init__.py for project"
 	cd /home/m/mico2178/baxter_ws/build/project && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv --initpy
 
 project_generate_messages_py: project/CMakeFiles/project_generate_messages_py
 project_generate_messages_py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg/_message.py
-project_generate_messages_py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/_adder.py
+project_generate_messages_py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/_painter.py
 project_generate_messages_py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg/__init__.py
 project_generate_messages_py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/__init__.py
 project_generate_messages_py: project/CMakeFiles/project_generate_messages_py.dir/build.make

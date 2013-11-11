@@ -2,25 +2,25 @@
 import roslib; roslib.load_manifest('project')
 import sys
 import rospy
+from project.srv import *
 
-def add_two_ints_client(x, y):
-    rospy.wait_for_service('add_two_ints')
+def painter_client(filePath):
+    rospy.wait_for_service('painter_service')
     try:
-        add_two_ints = rospy.ServiceProxy('add_two_ints', adder)
-        resp1 = add_two_ints(x, y)
-        return resp1.sum
+        painter_service = rospy.ServiceProxy('painter_service', painter)
+        resp1 = painter_service(filePath)
+        return resp1.returnStatus
     except rospy.ServiceException, e:
         print "Service call failed: %s"%e
 
 def usage():
-    return "%s [x y]"%sys.argv[0]
+    return "%s /path/to/SVG/image.svg"%sys.argv[0]
 
 if __name__ == "__main__":
-    if len(sys.argv) == 3:
-        x = int(sys.argv[1])
-        y = int(sys.argv[2])
+    if len(sys.argv) == 2:
+        filePath = sys.argv[1]
     else:
         print usage()
         sys.exit(1)
-    print "Requesting %s+%s"%(x, y)
-    print "%s + %s = %s"%(x, y, add_two_ints_client(x, y))
+    print "Sending "+filePath
+    print "got back"+str(painter_client(filePath))

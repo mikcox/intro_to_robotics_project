@@ -26,7 +26,7 @@ _generate_msg_cpp(project
 
 ### Generating Services
 _generate_srv_cpp(project
-  "/home/m/mico2178/baxter_ws/src/project/srv/adder.srv"
+  "/home/m/mico2178/baxter_ws/src/project/srv/painter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/project
@@ -61,7 +61,7 @@ _generate_msg_lisp(project
 
 ### Generating Services
 _generate_srv_lisp(project
-  "/home/m/mico2178/baxter_ws/src/project/srv/adder.srv"
+  "/home/m/mico2178/baxter_ws/src/project/srv/painter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/project
@@ -96,7 +96,7 @@ _generate_msg_py(project
 
 ### Generating Services
 _generate_srv_py(project
-  "/home/m/mico2178/baxter_ws/src/project/srv/adder.srv"
+  "/home/m/mico2178/baxter_ws/src/project/srv/painter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/project

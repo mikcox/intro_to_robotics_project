@@ -4,15 +4,15 @@ import roslib
 import rospy
 import tf
 
-def handle_add_two_ints(req):
-    print "Returning [%s + %s = %s]"%(req.a, req.b, (req.a + req.b))
-    return adderResponse(req.a + req.b)
+def handle_paint(req):
+    print "Heard " + req.filePath
+    return painterResponse(0)
 
-def add_two_ints_server():
-    rospy.init_node('add_two_ints_server')
-    s = rospy.Service('add_two_ints', adder, handle_add_two_ints)
-    print "Ready to add two ints."
+def painter_server():
+    rospy.init_node('painter_server')
+    s = rospy.Service('painter_service', painter, handle_paint)
+    print "Ready to do stuff."
     rospy.spin()
 
 if __name__ == "__main__":
-    add_two_ints_server()
+    painter_server()

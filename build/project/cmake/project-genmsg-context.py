@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = "/home/m/mico2178/baxter_ws/src/project/msg/message.msg"
-services_str = "/home/m/mico2178/baxter_ws/src/project/srv/adder.srv"
+services_str = "/home/m/mico2178/baxter_ws/src/project/srv/painter.srv"
 pkg_name = "project"
 dependencies_str = "std_msgs"
 langs = "gencpp;genlisp;genpy"
