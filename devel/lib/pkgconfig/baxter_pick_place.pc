@@ -1,8 +1,0 @@
-prefix=/home/m/mico2178/baxter_ws/devel
-
-Name: baxter_pick_place
-Description: Description of baxter_pick_place
-Version: 0.2.1
-Cflags: 
-Libs: -L/home/m/mico2178/baxter_ws/devel/lib 
-Requires: 

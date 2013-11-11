@@ -1,8 +1,0 @@
-prefix=/home/m/mico2178/baxter_ws/install
-
-Name: vision_lab
-Description: Description of vision_lab
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/m/mico2178/baxter_ws/install/lib 
-Requires: 

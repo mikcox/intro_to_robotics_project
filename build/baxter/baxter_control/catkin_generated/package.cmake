@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "baxter_control")
-set(baxter_control_MAINTAINER "Dave Coleman <davetcoleman@gmail.com>")
-set(baxter_control_DEPRECATED "")
-set(baxter_control_VERSION "0.2.1")
-set(baxter_control_BUILD_DEPENDS "moveit_ros_planning_interface" "std_msgs" "roscpp" "baxter_msgs" "controller_manager" "transmission_interface" "hardware_interface" "sensor_msgs" "trajectory_msgs" "joint_limits_interface" "trajectory_msgs")
-set(baxter_control_RUN_DEPENDS "moveit_ros_planning_interface" "std_msgs" "roscpp" "gazebo_ros_control" "baxter_msgs" "controller_manager" "transmission_interface" "hardware_interface" "sensor_msgs" "trajectory_msgs" "joint_limits_interface" "baxter_description" "trajectory_msgs")
-set(baxter_control_BUILDTOOL_DEPENDS "catkin")

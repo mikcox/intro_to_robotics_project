@@ -1,1 +1,1 @@
-from ._painter import *
+from ._adder import *

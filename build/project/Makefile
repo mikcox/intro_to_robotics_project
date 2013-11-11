@@ -147,34 +147,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-project/CMakeFiles/painter_client.dir/rule:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/painter_client.dir/rule
-.PHONY : project/CMakeFiles/painter_client.dir/rule
-
-# Convenience name for target.
-painter_client: project/CMakeFiles/painter_client.dir/rule
-.PHONY : painter_client
-
-# fast build rule for target.
-painter_client/fast:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/painter_client.dir/build.make project/CMakeFiles/painter_client.dir/build
-.PHONY : painter_client/fast
-
-# Convenience name for target.
-project/CMakeFiles/painter_server.dir/rule:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/painter_server.dir/rule
-.PHONY : project/CMakeFiles/painter_server.dir/rule
-
-# Convenience name for target.
-painter_server: project/CMakeFiles/painter_server.dir/rule
-.PHONY : painter_server
-
-# fast build rule for target.
-painter_server/fast:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/painter_server.dir/build.make project/CMakeFiles/painter_server.dir/build
-.PHONY : painter_server/fast
-
-# Convenience name for target.
 project/CMakeFiles/project_gencpp.dir/rule:
 	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/project_gencpp.dir/rule
 .PHONY : project/CMakeFiles/project_gencpp.dir/rule
@@ -272,53 +244,131 @@ project_genpy/fast:
 	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/project_genpy.dir/build.make project/CMakeFiles/project_genpy.dir/build
 .PHONY : project_genpy/fast
 
-src/painter_client.o: src/painter_client.cpp.o
-.PHONY : src/painter_client.o
+# Convenience name for target.
+project/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
+	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : project/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
-# target to build an object file
-src/painter_client.cpp.o:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/painter_client.dir/build.make project/CMakeFiles/painter_client.dir/src/painter_client.cpp.o
-.PHONY : src/painter_client.cpp.o
+# Convenience name for target.
+roscpp_generate_messages_cpp: project/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : roscpp_generate_messages_cpp
 
-src/painter_client.i: src/painter_client.cpp.i
-.PHONY : src/painter_client.i
+# fast build rule for target.
+roscpp_generate_messages_cpp/fast:
+	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make project/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+.PHONY : roscpp_generate_messages_cpp/fast
 
-# target to preprocess a source file
-src/painter_client.cpp.i:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/painter_client.dir/build.make project/CMakeFiles/painter_client.dir/src/painter_client.cpp.i
-.PHONY : src/painter_client.cpp.i
+# Convenience name for target.
+project/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
+	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+.PHONY : project/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
-src/painter_client.s: src/painter_client.cpp.s
-.PHONY : src/painter_client.s
+# Convenience name for target.
+roscpp_generate_messages_lisp: project/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+.PHONY : roscpp_generate_messages_lisp
 
-# target to generate assembly for a file
-src/painter_client.cpp.s:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/painter_client.dir/build.make project/CMakeFiles/painter_client.dir/src/painter_client.cpp.s
-.PHONY : src/painter_client.cpp.s
+# fast build rule for target.
+roscpp_generate_messages_lisp/fast:
+	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make project/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+.PHONY : roscpp_generate_messages_lisp/fast
 
-src/painter_server.o: src/painter_server.cpp.o
-.PHONY : src/painter_server.o
+# Convenience name for target.
+project/CMakeFiles/roscpp_generate_messages_py.dir/rule:
+	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/roscpp_generate_messages_py.dir/rule
+.PHONY : project/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
-# target to build an object file
-src/painter_server.cpp.o:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/painter_server.dir/build.make project/CMakeFiles/painter_server.dir/src/painter_server.cpp.o
-.PHONY : src/painter_server.cpp.o
+# Convenience name for target.
+roscpp_generate_messages_py: project/CMakeFiles/roscpp_generate_messages_py.dir/rule
+.PHONY : roscpp_generate_messages_py
 
-src/painter_server.i: src/painter_server.cpp.i
-.PHONY : src/painter_server.i
+# fast build rule for target.
+roscpp_generate_messages_py/fast:
+	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/roscpp_generate_messages_py.dir/build.make project/CMakeFiles/roscpp_generate_messages_py.dir/build
+.PHONY : roscpp_generate_messages_py/fast
 
-# target to preprocess a source file
-src/painter_server.cpp.i:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/painter_server.dir/build.make project/CMakeFiles/painter_server.dir/src/painter_server.cpp.i
-.PHONY : src/painter_server.cpp.i
+# Convenience name for target.
+project/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
+	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : project/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
-src/painter_server.s: src/painter_server.cpp.s
-.PHONY : src/painter_server.s
+# Convenience name for target.
+rosgraph_msgs_generate_messages_cpp: project/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : rosgraph_msgs_generate_messages_cpp
 
-# target to generate assembly for a file
-src/painter_server.cpp.s:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/painter_server.dir/build.make project/CMakeFiles/painter_server.dir/src/painter_server.cpp.s
-.PHONY : src/painter_server.cpp.s
+# fast build rule for target.
+rosgraph_msgs_generate_messages_cpp/fast:
+	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make project/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+project/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
+	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : project/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_lisp: project/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : rosgraph_msgs_generate_messages_lisp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_lisp/fast:
+	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make project/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+project/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
+	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+.PHONY : project/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_py: project/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+.PHONY : rosgraph_msgs_generate_messages_py
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_py/fast:
+	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make project/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+.PHONY : rosgraph_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+project/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
+	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : project/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_cpp: project/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : std_msgs_generate_messages_cpp
+
+# fast build rule for target.
+std_msgs_generate_messages_cpp/fast:
+	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make project/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+.PHONY : std_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+project/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
+	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : project/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_lisp: project/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : std_msgs_generate_messages_lisp
+
+# fast build rule for target.
+std_msgs_generate_messages_lisp/fast:
+	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make project/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+.PHONY : std_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+project/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
+	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : project/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_py: project/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : std_msgs_generate_messages_py
+
+# fast build rule for target.
+std_msgs_generate_messages_py/fast:
+	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/std_msgs_generate_messages_py.dir/build.make project/CMakeFiles/std_msgs_generate_messages_py.dir/build
+.PHONY : std_msgs_generate_messages_py/fast
 
 # Help Target
 help:
@@ -331,8 +381,6 @@ help:
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
-	@echo "... painter_client"
-	@echo "... painter_server"
 	@echo "... project_gencpp"
 	@echo "... project_generate_messages"
 	@echo "... project_generate_messages_cpp"
@@ -341,13 +389,16 @@ help:
 	@echo "... project_genlisp"
 	@echo "... project_genpy"
 	@echo "... rebuild_cache"
+	@echo "... roscpp_generate_messages_cpp"
+	@echo "... roscpp_generate_messages_lisp"
+	@echo "... roscpp_generate_messages_py"
+	@echo "... rosgraph_msgs_generate_messages_cpp"
+	@echo "... rosgraph_msgs_generate_messages_lisp"
+	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... std_msgs_generate_messages_py"
 	@echo "... test"
-	@echo "... src/painter_client.o"
-	@echo "... src/painter_client.i"
-	@echo "... src/painter_client.s"
-	@echo "... src/painter_server.o"
-	@echo "... src/painter_server.i"
-	@echo "... src/painter_server.s"
 .PHONY : help
 
 

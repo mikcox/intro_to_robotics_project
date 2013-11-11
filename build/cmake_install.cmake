@@ -85,22 +85,7 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/m/mico2178/baxter_ws/build/gtest/cmake_install.cmake")
-  INCLUDE("/home/m/mico2178/baxter_ws/build/baxter_common/baxter_common/cmake_install.cmake")
-  INCLUDE("/home/m/mico2178/baxter_ws/build/baxter_common/baxter_description/cmake_install.cmake")
-  INCLUDE("/home/m/mico2178/baxter_ws/build/baxter/baxter_ikfast_left_arm_plugin/cmake_install.cmake")
-  INCLUDE("/home/m/mico2178/baxter_ws/build/baxter/baxter_ikfast_right_arm_plugin/cmake_install.cmake")
-  INCLUDE("/home/m/mico2178/baxter_ws/build/baxter/baxter_moveit_config/cmake_install.cmake")
-  INCLUDE("/home/m/mico2178/baxter_ws/build/baxter_moveit_config_new/cmake_install.cmake")
-  INCLUDE("/home/m/mico2178/baxter_ws/build/baxter_common/baxter_msgs/cmake_install.cmake")
-  INCLUDE("/home/m/mico2178/baxter_ws/build/baxter/baxter_control/cmake_install.cmake")
-  INCLUDE("/home/m/mico2178/baxter_ws/build/baxter/baxter_controllers/cmake_install.cmake")
-  INCLUDE("/home/m/mico2178/baxter_ws/build/baxter/baxter_gazebo/cmake_install.cmake")
-  INCLUDE("/home/m/mico2178/baxter_ws/build/baxter/baxter_gripper_server/cmake_install.cmake")
-  INCLUDE("/home/m/mico2178/baxter_ws/build/baxter/baxter_scripts/cmake_install.cmake")
-  INCLUDE("/home/m/mico2178/baxter_ws/build/block_grasp_generator/cmake_install.cmake")
-  INCLUDE("/home/m/mico2178/baxter_ws/build/baxter/baxter_pick_place/cmake_install.cmake")
   INCLUDE("/home/m/mico2178/baxter_ws/build/project/cmake_install.cmake")
-  INCLUDE("/home/m/mico2178/baxter_ws/build/vision_lab/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

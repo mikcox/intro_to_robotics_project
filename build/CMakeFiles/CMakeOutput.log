@@ -1,4 +1,4 @@
-The system is: Linux - 3.5.0-40-generic - x86_64
+The system is: Linux - 3.5.0-42-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/gcc 
 Build flags: 
@@ -29,10 +29,10 @@ Determining if the C compiler works passed with the following output:
 Change Dir: /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp
 
 Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
-make: Warning: File `Makefile' has modification time 5.7 s in the future
+make: Warning: File `Makefile' has modification time 6.6 s in the future
 /usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
 make[1]: Entering directory `/home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp'
-make[1]: Warning: File `CMakeFiles/cmTryCompileExec.dir/flags.make' has modification time 5.7 s in the future
+make[1]: Warning: File `CMakeFiles/cmTryCompileExec.dir/flags.make' has modification time 6.6 s in the future
 /usr/bin/cmake -E cmake_progress_report /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
 Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o
 /usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o   -c /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp/testCCompiler.c
@@ -48,10 +48,10 @@ Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp
 
 Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
-make: Warning: File `Makefile' has modification time 5.7 s in the future
+make: Warning: File `Makefile' has modification time 6.6 s in the future
 /usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
 make[1]: Entering directory `/home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp'
-make[1]: Warning: File `CMakeFiles/cmTryCompileExec.dir/flags.make' has modification time 5.7 s in the future
+make[1]: Warning: File `CMakeFiles/cmTryCompileExec.dir/flags.make' has modification time 6.6 s in the future
 /usr/bin/cmake -E cmake_progress_report /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
 Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o
 /usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
@@ -79,10 +79,10 @@ Parsed C implicit link information from above output:
   ignore line: [Change Dir: /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec/fast"]
-  ignore line: [make: Warning: File `Makefile' has modification time 5.7 s in the future]
+  ignore line: [make: Warning: File `Makefile' has modification time 6.6 s in the future]
   ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
   ignore line: [make[1]: Entering directory `/home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp']
-  ignore line: [make[1]: Warning: File `CMakeFiles/cmTryCompileExec.dir/flags.make' has modification time 5.7 s in the future]
+  ignore line: [make[1]: Warning: File `CMakeFiles/cmTryCompileExec.dir/flags.make' has modification time 6.6 s in the future]
   ignore line: [/usr/bin/cmake -E cmake_progress_report /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
   ignore line: [Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o]
   ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
@@ -158,10 +158,10 @@ Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp
 
 Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
-make: Warning: File `Makefile' has modification time 5.7 s in the future
+make: Warning: File `Makefile' has modification time 6.6 s in the future
 /usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
 make[1]: Entering directory `/home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp'
-make[1]: Warning: File `CMakeFiles/cmTryCompileExec.dir/flags.make' has modification time 5.7 s in the future
+make[1]: Warning: File `CMakeFiles/cmTryCompileExec.dir/flags.make' has modification time 6.6 s in the future
 /usr/bin/cmake -E cmake_progress_report /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
 Building CXX object CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o
 /usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o -c /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
@@ -177,10 +177,10 @@ Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp
 
 Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
-make: Warning: File `Makefile' has modification time 5.7 s in the future
+make: Warning: File `Makefile' has modification time 6.6 s in the future
 /usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
 make[1]: Entering directory `/home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp'
-make[1]: Warning: File `CMakeFiles/cmTryCompileExec.dir/flags.make' has modification time 5.7 s in the future
+make[1]: Warning: File `CMakeFiles/cmTryCompileExec.dir/flags.make' has modification time 6.6 s in the future
 /usr/bin/cmake -E cmake_progress_report /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
 Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o
 /usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
@@ -208,10 +208,10 @@ Parsed CXX implicit link information from above output:
   ignore line: [Change Dir: /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec/fast"]
-  ignore line: [make: Warning: File `Makefile' has modification time 5.7 s in the future]
+  ignore line: [make: Warning: File `Makefile' has modification time 6.6 s in the future]
   ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
   ignore line: [make[1]: Entering directory `/home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp']
-  ignore line: [make[1]: Warning: File `CMakeFiles/cmTryCompileExec.dir/flags.make' has modification time 5.7 s in the future]
+  ignore line: [make[1]: Warning: File `CMakeFiles/cmTryCompileExec.dir/flags.make' has modification time 6.6 s in the future]
   ignore line: [/usr/bin/cmake -E cmake_progress_report /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
   ignore line: [Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o]
   ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
@@ -285,10 +285,10 @@ Determining if files pthread.h exist passed with the following output:
 Change Dir: /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp
 
 Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
-make: Warning: File `Makefile' has modification time 5.7 s in the future
+make: Warning: File `Makefile' has modification time 6.6 s in the future
 /usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
 make[1]: Entering directory `/home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp'
-make[1]: Warning: File `CMakeFiles/cmTryCompileExec.dir/flags.make' has modification time 5.7 s in the future
+make[1]: Warning: File `CMakeFiles/cmTryCompileExec.dir/flags.make' has modification time 6.6 s in the future
 /usr/bin/cmake -E cmake_progress_report /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
 Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o
 /usr/bin/gcc    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o   -c /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
@@ -304,54 +304,16 @@ Determining if the function pthread_create exists in the pthread passed with the
 Change Dir: /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp
 
 Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
-make: Warning: File `Makefile' has modification time 5.7 s in the future
+make: Warning: File `Makefile' has modification time 6.6 s in the future
 /usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
 make[1]: Entering directory `/home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp'
-make[1]: Warning: File `CMakeFiles/cmTryCompileExec.dir/flags.make' has modification time 5.7 s in the future
+make[1]: Warning: File `CMakeFiles/cmTryCompileExec.dir/flags.make' has modification time 6.6 s in the future
 /usr/bin/cmake -E cmake_progress_report /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
 Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
 /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
 Linking C executable cmTryCompileExec
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
 /usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lpthread 
-make[1]: warning:  Clock skew detected.  Your build may be incomplete.
-make[1]: Leaving directory `/home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp'
-make: warning:  Clock skew detected.  Your build may be incomplete.
-
-
-Determining if the function sgemm_ exists passed with the following output:
-Change Dir: /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp
-
-Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
-make: Warning: File `Makefile' has modification time 5.7 s in the future
-/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
-make[1]: Entering directory `/home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp'
-make[1]: Warning: File `CMakeFiles/cmTryCompileExec.dir/flags.make' has modification time 5.7 s in the future
-/usr/bin/cmake -E cmake_progress_report /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
-/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=sgemm_   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
-/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=sgemm_    CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lblas 
-make[1]: warning:  Clock skew detected.  Your build may be incomplete.
-make[1]: Leaving directory `/home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp'
-make: warning:  Clock skew detected.  Your build may be incomplete.
-
-
-Determining if the function cheev_ exists passed with the following output:
-Change Dir: /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp
-
-Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
-make: Warning: File `Makefile' has modification time 5.7 s in the future
-/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
-make[1]: Entering directory `/home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp'
-make[1]: Warning: File `CMakeFiles/cmTryCompileExec.dir/flags.make' has modification time 5.7 s in the future
-/usr/bin/cmake -E cmake_progress_report /home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
-/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=cheev_   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
-/usr/bin/gcc     -DCHECK_FUNCTION_EXISTS=cheev_    CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -llapack -lblas 
 make[1]: warning:  Clock skew detected.  Your build may be incomplete.
 make[1]: Leaving directory `/home/m/mico2178/baxter_ws/build/CMakeFiles/CMakeTmp'
 make: warning:  Clock skew detected.  Your build may be incomplete.
