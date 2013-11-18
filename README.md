@@ -7,6 +7,11 @@ Helpful links so far:
 
 SVG paths:  http://www.w3.org/TR/SVG/paths.html#PathElement
 
+ROS kinematic solver links:
+http://moveit.ros.org/wiki/Kinematics/ROS_API
+http://moveit.ros.org/wiki/Kinematics/C%2B%2B_API
+(google kinematics site:moveit.ros.org for others)
+
 
 Mik's email:  mixter.c@gmail.com
 
