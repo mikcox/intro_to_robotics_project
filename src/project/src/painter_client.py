@@ -17,10 +17,15 @@ def usage():
     return "USAGE: %s /path/to/SVG/image.svg"%sys.argv[0]
 
 if __name__ == "__main__":
-    if len(sys.argv) == 2:
-        filePath = sys.argv[1]
-    else:
-        print usage()
-        sys.exit(1)
-    print "Sending "+filePath
-    print "got back "+str(painter_client(filePath))
+	if len(sys.argv) == 2:
+		filePath = sys.argv[1]
+	else:
+		print usage()
+		sys.exit(1)
+	print "Sending filepath '" + filePath + "'"
+	response = painter_client(filePath)
+	#print "status: " + str(response)
+	if response == 0:
+		print "Success!"
+	if response == 1:
+		print "Error 1: Couldn't read file at location " + filePath

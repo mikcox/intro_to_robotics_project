@@ -3,12 +3,32 @@ from project.srv import *
 import roslib
 import rospy
 import tf
+import re
 
 def handle_paint(req):
 	status = 0
 	print "Heard "+req.filePath
-	file = open(req.filePath, 'r')
-	print "File contents:  "+file.read()
+	#open file and read contents	
+	try:
+		f = open(req.filePath, 'r')
+		fileContents = f.readlines()
+		f.close()
+	except:
+		print "Failed to read contents of file "+req.filePath
+		return 1
+	#print fileContents
+	pathFlag = False
+	for line in fileContents:
+		if "<path" in line:
+			pathFlag = True
+		if pathFlag:
+			if" d=" in line:	
+				#strip off extra stuff and only grab the d	
+				path = re.sub(".*?(d=)", "\\1", line, 1)
+				patharray = path.split('"')
+				print "path: "+patharray[1]
+			
+	
 	return status
 
 def painter_server():
