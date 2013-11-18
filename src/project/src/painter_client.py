@@ -14,7 +14,7 @@ def painter_client(filePath):
         print "Service call failed: %s"%e
 
 def usage():
-    return "%s /path/to/SVG/image.svg"%sys.argv[0]
+    return "USAGE: %s /path/to/SVG/image.svg"%sys.argv[0]
 
 if __name__ == "__main__":
     if len(sys.argv) == 2:

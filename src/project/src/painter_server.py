@@ -5,8 +5,11 @@ import rospy
 import tf
 
 def handle_paint(req):
-    print "Heard " + req.filePath
-    return painterResponse(0)
+	status = 0
+	print "Heard "+req.filePath
+	file = open(req.filePath, 'r')
+	print "File contents:  "+file.read()
+	return status
 
 def painter_server():
     rospy.init_node('painter_server')
