@@ -12,6 +12,8 @@ Mik's email:  mixter.c@gmail.com
 
 Ian's email:  andrzejczak.ian@gmail.com
 
+Brian's email:	bcampuzano@gmail.com
+
 ## General Outline of Tasks
 
 
