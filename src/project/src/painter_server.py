@@ -4,6 +4,7 @@ import roslib
 import rospy
 import tf
 import re
+from svg.src.svg.path import parse_path, Path, Line, QuadraticBezier
 
 def handle_paint(req):
 	status = 0

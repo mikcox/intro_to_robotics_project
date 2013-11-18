@@ -3,7 +3,11 @@ from project.srv import *
 import roslib
 import rospy
 import tf
+<<<<<<< HEAD
 import re
+=======
+from svg.src.svg.path import parse_path, Path, Line, QuadraticBezier
+>>>>>>> d01630beacfc9981a203ccda70b6d82b9ac26262
 
 def handle_paint(req):
 	status = 0
@@ -26,9 +30,6 @@ def handle_paint(req):
 				#strip off extra stuff and only grab the d	
 				path = re.sub(".*?(d=)", "\\1", line, 1)
 				patharray = path.split('"')
-				#path = path[:-4]
-				#path = path[3:]
-				#print line
 				print "path: "+patharray[1]
 			
 	
