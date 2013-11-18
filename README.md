@@ -12,6 +12,8 @@ http://moveit.ros.org/wiki/Kinematics/ROS_API
 http://moveit.ros.org/wiki/Kinematics/C%2B%2B_API
 (google kinematics site:moveit.ros.org for others)
 
+SVG parser:
+https://pypi.python.org/pypi/svg.path
 
 Mik's email:  mixter.c@gmail.com
 
