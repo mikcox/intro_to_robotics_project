@@ -29,3 +29,6 @@ if __name__ == "__main__":
 		print "Success!"
 	if response == 1:
 		print "Error 1: Couldn't read file at location " + filePath
+	if response == 2:
+		print "Error 2: Couldn't parse contents of file " + filePath
+	
