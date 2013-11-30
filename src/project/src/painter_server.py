@@ -92,6 +92,7 @@ def handleParsedPath(parsedPath):
 			#print str(parsedPath[i].point(1.0).real)+", "+str(parsedPath[i].point(1.0).imag)+", 0)"
 			pointList.append(str(parsedPath[i].point(1.0).real)+","+str(parsedPath[i].point(1.0).imag)+",0")
 		firstPathFlag = False
+
 #this function generates path points for pen jumps from the point (lastEndx, lastEndy) to the point (startx, starty).
 def penJump(lastEndx, lastEndy, startx, starty):
 	global pointList
@@ -101,9 +102,9 @@ def penJump(lastEndx, lastEndy, startx, starty):
 		pointList.append(str(lastEndx)+","+str(lastEndy)+","+str(z))
 		z += 1
 	for i in range(0, 99):
-		pointList.append(str(startx + i*(startx-lastEndx)/100)+","+str(starty + i*(startx-lastEndx)/100)+","+str(z))
+		pointList.append(str(lastEndx + i*(startx-lastEndx)/100)+","+str(lastEndy + i*(starty-lastEndy)/100)+","+str(z))
 	while z >= 0:
-		pointList.append(str(lastEndx)+","+str(lastEndy)+","+str(z))
+		pointList.append(str(startx)+","+str(starty)+","+str(z))
 		z -= 1
 	
 
