@@ -98,14 +98,14 @@ def penJump(lastEndx, lastEndy, startx, starty):
 	global pointList
 	#print "PEN JUMP FROM ("+str(lastEndx)+", "+str(lastEndy)+") to ("+str(startx)+", "+str(starty)+")"
 	z = 0
-	while z <= 10:
+	while z >= -10:
 		pointList.append(str(lastEndx)+","+str(lastEndy)+","+str(z))
-		z += 1
+		z -= 1
 	for i in range(0, 99):
 		pointList.append(str(lastEndx + i*(startx-lastEndx)/100)+","+str(lastEndy + i*(starty-lastEndy)/100)+","+str(z))
-	while z >= 0:
+	while z <= 0:
 		pointList.append(str(startx)+","+str(starty)+","+str(z))
-		z -= 1
+		z += 1
 	
 
 if __name__ == "__main__":
