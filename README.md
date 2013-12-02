@@ -25,7 +25,7 @@ Brian's email:	bcampuzano@gmail.com
 
 
 1. Create client node to communicate with the user and get filepath for SVG image
-  1. Need to include some sort of calibration stage, where we:
+  1. (Optional) Need to include some sort of calibration stage, where we:
     1. show baxter where the whiteboard is (either manually dragging his arm OR ar-pose and QR-codes), and 
     2. tell him when to close his gripper to grab a marker that we hold up for him
 2. Create server node to take filepath to SVG image, parse the path information, and publish translated movement commands
