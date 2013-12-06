@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/m/mico2178/baxter_ws/devel/setup.sh
+    local-name: /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/setup.sh

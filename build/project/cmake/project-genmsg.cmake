@@ -2,7 +2,7 @@
 
 message(STATUS "project: 1 messages, 1 services")
 
-set(MSG_I_FLAGS "-Iproject:/home/m/mico2178/baxter_ws/src/project/msg;-Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iproject:/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src/project/msg;-Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -18,7 +18,7 @@ add_custom_target(project_generate_messages ALL)
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(project
-  "/home/m/mico2178/baxter_ws/src/project/msg/message.msg"
+  "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src/project/msg/message.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/project
@@ -26,7 +26,7 @@ _generate_msg_cpp(project
 
 ### Generating Services
 _generate_srv_cpp(project
-  "/home/m/mico2178/baxter_ws/src/project/srv/painter.srv"
+  "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src/project/srv/painter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/project
@@ -53,7 +53,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS project_generate_messages_cpp)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(project
-  "/home/m/mico2178/baxter_ws/src/project/msg/message.msg"
+  "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src/project/msg/message.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/project
@@ -61,7 +61,7 @@ _generate_msg_lisp(project
 
 ### Generating Services
 _generate_srv_lisp(project
-  "/home/m/mico2178/baxter_ws/src/project/srv/painter.srv"
+  "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src/project/srv/painter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/project
@@ -88,7 +88,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS project_generate_messages_lisp)
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(project
-  "/home/m/mico2178/baxter_ws/src/project/msg/message.msg"
+  "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src/project/msg/message.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/project
@@ -96,7 +96,7 @@ _generate_msg_py(project
 
 ### Generating Services
 _generate_srv_py(project
-  "/home/m/mico2178/baxter_ws/src/project/srv/painter.srv"
+  "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src/project/srv/painter.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/project

@@ -1,2 +1,2 @@
-set(project_MESSAGE_FILES "/home/m/mico2178/baxter_ws/src/project/msg/message.msg")
-set(project_SERVICE_FILES "/home/m/mico2178/baxter_ws/src/project/srv/painter.srv")
+set(project_MESSAGE_FILES "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src/project/msg/message.msg")
+set(project_SERVICE_FILES "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src/project/srv/painter.srv")

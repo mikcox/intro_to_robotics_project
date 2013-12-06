@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/project_generate_messages_lisp"
-  "/home/m/mico2178/baxter_ws/devel/share/common-lisp/ros/project/msg/message.lisp"
-  "/home/m/mico2178/baxter_ws/devel/share/common-lisp/ros/project/srv/painter.lisp"
+  "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/share/common-lisp/ros/project/msg/message.lisp"
+  "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/share/common-lisp/ros/project/srv/painter.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

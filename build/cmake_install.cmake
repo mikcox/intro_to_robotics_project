@@ -1,8 +1,8 @@
-# Install script for directory: /home/m/mico2178/baxter_ws/src
+# Install script for directory: /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/m/mico2178/baxter_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,44 +34,44 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
-   "/home/m/mico2178/baxter_ws/install/.catkin")
-FILE(INSTALL DESTINATION "/home/m/mico2178/baxter_ws/install" TYPE FILE FILES "/home/m/mico2178/baxter_ws/build/catkin_generated/installspace/.catkin")
+   "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/install/.catkin")
+FILE(INSTALL DESTINATION "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/install" TYPE FILE FILES "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/catkin_generated/installspace/.catkin")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
-   "/home/m/mico2178/baxter_ws/install/_setup_util.py")
-FILE(INSTALL DESTINATION "/home/m/mico2178/baxter_ws/install" TYPE PROGRAM FILES "/home/m/mico2178/baxter_ws/build/catkin_generated/installspace/_setup_util.py")
+   "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/install/_setup_util.py")
+FILE(INSTALL DESTINATION "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/install" TYPE PROGRAM FILES "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/catkin_generated/installspace/_setup_util.py")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
-   "/home/m/mico2178/baxter_ws/install/env.sh")
-FILE(INSTALL DESTINATION "/home/m/mico2178/baxter_ws/install" TYPE PROGRAM FILES "/home/m/mico2178/baxter_ws/build/catkin_generated/installspace/env.sh")
+   "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/install/env.sh")
+FILE(INSTALL DESTINATION "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/install" TYPE PROGRAM FILES "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/catkin_generated/installspace/env.sh")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
-   "/home/m/mico2178/baxter_ws/install/setup.bash")
-FILE(INSTALL DESTINATION "/home/m/mico2178/baxter_ws/install" TYPE FILE FILES "/home/m/mico2178/baxter_ws/build/catkin_generated/installspace/setup.bash")
+   "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/install/setup.bash")
+FILE(INSTALL DESTINATION "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/install" TYPE FILE FILES "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/catkin_generated/installspace/setup.bash")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
-   "/home/m/mico2178/baxter_ws/install/setup.sh")
-FILE(INSTALL DESTINATION "/home/m/mico2178/baxter_ws/install" TYPE FILE FILES "/home/m/mico2178/baxter_ws/build/catkin_generated/installspace/setup.sh")
+   "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/install/setup.sh")
+FILE(INSTALL DESTINATION "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/install" TYPE FILE FILES "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/catkin_generated/installspace/setup.sh")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
-   "/home/m/mico2178/baxter_ws/install/setup.zsh")
-FILE(INSTALL DESTINATION "/home/m/mico2178/baxter_ws/install" TYPE FILE FILES "/home/m/mico2178/baxter_ws/build/catkin_generated/installspace/setup.zsh")
+   "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/install/setup.zsh")
+FILE(INSTALL DESTINATION "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/install" TYPE FILE FILES "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/catkin_generated/installspace/setup.zsh")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
-   "/home/m/mico2178/baxter_ws/install/.rosinstall")
-FILE(INSTALL DESTINATION "/home/m/mico2178/baxter_ws/install" TYPE FILE FILES "/home/m/mico2178/baxter_ws/build/catkin_generated/installspace/.rosinstall")
+   "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/install/.rosinstall")
+FILE(INSTALL DESTINATION "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/install" TYPE FILE FILES "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/catkin_generated/installspace/.rosinstall")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -84,8 +84,8 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/m/mico2178/baxter_ws/build/gtest/cmake_install.cmake")
-  INCLUDE("/home/m/mico2178/baxter_ws/build/project/cmake_install.cmake")
+  INCLUDE("/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/gtest/cmake_install.cmake")
+  INCLUDE("/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/project/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -95,7 +95,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/m/mico2178/baxter_ws/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/m/mico2178/baxter_ws/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

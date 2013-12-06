@@ -35,19 +35,22 @@ CMAKE_COMMAND = /usr/bin/cmake
 # The command to remove a file.
 RM = /usr/bin/cmake -E remove -f
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/m/mico2178/baxter_ws/src
+CMAKE_SOURCE_DIR = /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/m/mico2178/baxter_ws/build
+CMAKE_BINARY_DIR = /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running interactive CMake command-line interface..."
-	/usr/bin/cmake -i .
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -117,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/m/mico2178/baxter_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/m/mico2178/baxter_ws/build/CMakeFiles /home/m/mico2178/baxter_ws/build/project/CMakeFiles/progress.marks
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/m/mico2178/baxter_ws/build/CMakeFiles 0
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/CMakeFiles /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/project/CMakeFiles/progress.marks
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f CMakeFiles/Makefile2 project/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/clean
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f CMakeFiles/Makefile2 project/clean
 .PHONY : clean
 
 # The main clean target
@@ -133,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/preinstall
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f CMakeFiles/Makefile2 project/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/preinstall
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f CMakeFiles/Makefile2 project/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/m/mico2178/baxter_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 project/CMakeFiles/project_gencpp.dir/rule:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/project_gencpp.dir/rule
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/project_gencpp.dir/rule
 .PHONY : project/CMakeFiles/project_gencpp.dir/rule
 
 # Convenience name for target.
@@ -157,12 +160,12 @@ project_gencpp: project/CMakeFiles/project_gencpp.dir/rule
 
 # fast build rule for target.
 project_gencpp/fast:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/project_gencpp.dir/build.make project/CMakeFiles/project_gencpp.dir/build
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f project/CMakeFiles/project_gencpp.dir/build.make project/CMakeFiles/project_gencpp.dir/build
 .PHONY : project_gencpp/fast
 
 # Convenience name for target.
 project/CMakeFiles/project_generate_messages.dir/rule:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/project_generate_messages.dir/rule
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/project_generate_messages.dir/rule
 .PHONY : project/CMakeFiles/project_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -171,12 +174,12 @@ project_generate_messages: project/CMakeFiles/project_generate_messages.dir/rule
 
 # fast build rule for target.
 project_generate_messages/fast:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/project_generate_messages.dir/build.make project/CMakeFiles/project_generate_messages.dir/build
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f project/CMakeFiles/project_generate_messages.dir/build.make project/CMakeFiles/project_generate_messages.dir/build
 .PHONY : project_generate_messages/fast
 
 # Convenience name for target.
 project/CMakeFiles/project_generate_messages_cpp.dir/rule:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/project_generate_messages_cpp.dir/rule
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/project_generate_messages_cpp.dir/rule
 .PHONY : project/CMakeFiles/project_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -185,12 +188,12 @@ project_generate_messages_cpp: project/CMakeFiles/project_generate_messages_cpp.
 
 # fast build rule for target.
 project_generate_messages_cpp/fast:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/project_generate_messages_cpp.dir/build.make project/CMakeFiles/project_generate_messages_cpp.dir/build
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f project/CMakeFiles/project_generate_messages_cpp.dir/build.make project/CMakeFiles/project_generate_messages_cpp.dir/build
 .PHONY : project_generate_messages_cpp/fast
 
 # Convenience name for target.
 project/CMakeFiles/project_generate_messages_lisp.dir/rule:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/project_generate_messages_lisp.dir/rule
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/project_generate_messages_lisp.dir/rule
 .PHONY : project/CMakeFiles/project_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -199,12 +202,12 @@ project_generate_messages_lisp: project/CMakeFiles/project_generate_messages_lis
 
 # fast build rule for target.
 project_generate_messages_lisp/fast:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/project_generate_messages_lisp.dir/build.make project/CMakeFiles/project_generate_messages_lisp.dir/build
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f project/CMakeFiles/project_generate_messages_lisp.dir/build.make project/CMakeFiles/project_generate_messages_lisp.dir/build
 .PHONY : project_generate_messages_lisp/fast
 
 # Convenience name for target.
 project/CMakeFiles/project_generate_messages_py.dir/rule:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/project_generate_messages_py.dir/rule
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/project_generate_messages_py.dir/rule
 .PHONY : project/CMakeFiles/project_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -213,12 +216,12 @@ project_generate_messages_py: project/CMakeFiles/project_generate_messages_py.di
 
 # fast build rule for target.
 project_generate_messages_py/fast:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/project_generate_messages_py.dir/build.make project/CMakeFiles/project_generate_messages_py.dir/build
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f project/CMakeFiles/project_generate_messages_py.dir/build.make project/CMakeFiles/project_generate_messages_py.dir/build
 .PHONY : project_generate_messages_py/fast
 
 # Convenience name for target.
 project/CMakeFiles/project_genlisp.dir/rule:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/project_genlisp.dir/rule
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/project_genlisp.dir/rule
 .PHONY : project/CMakeFiles/project_genlisp.dir/rule
 
 # Convenience name for target.
@@ -227,12 +230,12 @@ project_genlisp: project/CMakeFiles/project_genlisp.dir/rule
 
 # fast build rule for target.
 project_genlisp/fast:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/project_genlisp.dir/build.make project/CMakeFiles/project_genlisp.dir/build
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f project/CMakeFiles/project_genlisp.dir/build.make project/CMakeFiles/project_genlisp.dir/build
 .PHONY : project_genlisp/fast
 
 # Convenience name for target.
 project/CMakeFiles/project_genpy.dir/rule:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/project_genpy.dir/rule
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/project_genpy.dir/rule
 .PHONY : project/CMakeFiles/project_genpy.dir/rule
 
 # Convenience name for target.
@@ -241,12 +244,12 @@ project_genpy: project/CMakeFiles/project_genpy.dir/rule
 
 # fast build rule for target.
 project_genpy/fast:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/project_genpy.dir/build.make project/CMakeFiles/project_genpy.dir/build
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f project/CMakeFiles/project_genpy.dir/build.make project/CMakeFiles/project_genpy.dir/build
 .PHONY : project_genpy/fast
 
 # Convenience name for target.
 project/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : project/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -255,12 +258,12 @@ roscpp_generate_messages_cpp: project/CMakeFiles/roscpp_generate_messages_cpp.di
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make project/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f project/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make project/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 project/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : project/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -269,12 +272,12 @@ roscpp_generate_messages_lisp: project/CMakeFiles/roscpp_generate_messages_lisp.
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make project/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f project/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make project/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 project/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : project/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -283,12 +286,12 @@ roscpp_generate_messages_py: project/CMakeFiles/roscpp_generate_messages_py.dir/
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/roscpp_generate_messages_py.dir/build.make project/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f project/CMakeFiles/roscpp_generate_messages_py.dir/build.make project/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 project/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : project/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -297,12 +300,12 @@ rosgraph_msgs_generate_messages_cpp: project/CMakeFiles/rosgraph_msgs_generate_m
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make project/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f project/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make project/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 project/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : project/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -311,12 +314,12 @@ rosgraph_msgs_generate_messages_lisp: project/CMakeFiles/rosgraph_msgs_generate_
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make project/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f project/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make project/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 project/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : project/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -325,12 +328,12 @@ rosgraph_msgs_generate_messages_py: project/CMakeFiles/rosgraph_msgs_generate_me
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make project/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f project/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make project/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 project/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : project/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -339,12 +342,12 @@ std_msgs_generate_messages_cpp: project/CMakeFiles/std_msgs_generate_messages_cp
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make project/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f project/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make project/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 project/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : project/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -353,12 +356,12 @@ std_msgs_generate_messages_lisp: project/CMakeFiles/std_msgs_generate_messages_l
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make project/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f project/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make project/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 project/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f CMakeFiles/Makefile2 project/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : project/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -367,7 +370,7 @@ std_msgs_generate_messages_py: project/CMakeFiles/std_msgs_generate_messages_py.
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	cd /home/m/mico2178/baxter_ws/build && $(MAKE) -f project/CMakeFiles/std_msgs_generate_messages_py.dir/build.make project/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(MAKE) -f project/CMakeFiles/std_msgs_generate_messages_py.dir/build.make project/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Help Target
@@ -410,6 +413,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/m/mico2178/baxter_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

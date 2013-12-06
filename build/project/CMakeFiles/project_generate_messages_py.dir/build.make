@@ -31,53 +31,56 @@ CMAKE_COMMAND = /usr/bin/cmake
 # The command to remove a file.
 RM = /usr/bin/cmake -E remove -f
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/m/mico2178/baxter_ws/src
+CMAKE_SOURCE_DIR = /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/m/mico2178/baxter_ws/build
+CMAKE_BINARY_DIR = /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build
 
 # Utility rule file for project_generate_messages_py.
 
 # Include the progress variables for this target.
 include project/CMakeFiles/project_generate_messages_py.dir/progress.make
 
-project/CMakeFiles/project_generate_messages_py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg/_message.py
-project/CMakeFiles/project_generate_messages_py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/_painter.py
-project/CMakeFiles/project_generate_messages_py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg/__init__.py
-project/CMakeFiles/project_generate_messages_py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/__init__.py
+project/CMakeFiles/project_generate_messages_py: /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/msg/_message.py
+project/CMakeFiles/project_generate_messages_py: /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/srv/_painter.py
+project/CMakeFiles/project_generate_messages_py: /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/msg/__init__.py
+project/CMakeFiles/project_generate_messages_py: /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/srv/__init__.py
 
-/home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg/_message.py: /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
-/home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg/_message.py: /home/m/mico2178/baxter_ws/src/project/msg/message.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/m/mico2178/baxter_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
+/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/msg/_message.py: /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/msg/_message.py: /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src/project/msg/message.msg
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG project/message"
-	cd /home/m/mico2178/baxter_ws/build/project && ../catkin_generated/env_cached.sh /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/m/mico2178/baxter_ws/src/project/msg/message.msg -Iproject:/home/m/mico2178/baxter_ws/src/project/msg -Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg -p project -o /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/project && ../catkin_generated/env_cached.sh /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src/project/msg/message.msg -Iproject:/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src/project/msg -Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg -p project -o /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/msg
 
-/home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/_painter.py: /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
-/home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/_painter.py: /home/m/mico2178/baxter_ws/src/project/srv/painter.srv
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/m/mico2178/baxter_ws/build/CMakeFiles $(CMAKE_PROGRESS_2)
+/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/srv/_painter.py: /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
+/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/srv/_painter.py: /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src/project/srv/painter.srv
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV project/painter"
-	cd /home/m/mico2178/baxter_ws/build/project && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/m/mico2178/baxter_ws/src/project/srv/painter.srv -Iproject:/home/m/mico2178/baxter_ws/src/project/msg -Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg -p project -o /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/project && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src/project/srv/painter.srv -Iproject:/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src/project/msg -Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg -p project -o /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/srv
 
-/home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg/__init__.py: /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
-/home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg/__init__.py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg/_message.py
-/home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg/__init__.py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/_painter.py
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/m/mico2178/baxter_ws/build/CMakeFiles $(CMAKE_PROGRESS_3)
+/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/msg/__init__.py: /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/msg/__init__.py: /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/msg/_message.py
+/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/msg/__init__.py: /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/srv/_painter.py
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python msg __init__.py for project"
-	cd /home/m/mico2178/baxter_ws/build/project && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg --initpy
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/project && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/msg --initpy
 
-/home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/__init__.py: /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
-/home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/__init__.py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg/_message.py
-/home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/__init__.py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/_painter.py
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/m/mico2178/baxter_ws/build/CMakeFiles $(CMAKE_PROGRESS_4)
+/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/srv/__init__.py: /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/srv/__init__.py: /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/msg/_message.py
+/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/srv/__init__.py: /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/srv/_painter.py
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python srv __init__.py for project"
-	cd /home/m/mico2178/baxter_ws/build/project && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv --initpy
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/project && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/hydro/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/srv --initpy
 
 project_generate_messages_py: project/CMakeFiles/project_generate_messages_py
-project_generate_messages_py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg/_message.py
-project_generate_messages_py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/_painter.py
-project_generate_messages_py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/msg/__init__.py
-project_generate_messages_py: /home/m/mico2178/baxter_ws/devel/lib/python2.7/dist-packages/project/srv/__init__.py
+project_generate_messages_py: /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/msg/_message.py
+project_generate_messages_py: /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/srv/_painter.py
+project_generate_messages_py: /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/msg/__init__.py
+project_generate_messages_py: /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/devel/lib/python2.7/dist-packages/project/srv/__init__.py
 project_generate_messages_py: project/CMakeFiles/project_generate_messages_py.dir/build.make
 .PHONY : project_generate_messages_py
 
@@ -86,10 +89,10 @@ project/CMakeFiles/project_generate_messages_py.dir/build: project_generate_mess
 .PHONY : project/CMakeFiles/project_generate_messages_py.dir/build
 
 project/CMakeFiles/project_generate_messages_py.dir/clean:
-	cd /home/m/mico2178/baxter_ws/build/project && $(CMAKE_COMMAND) -P CMakeFiles/project_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/project && $(CMAKE_COMMAND) -P CMakeFiles/project_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : project/CMakeFiles/project_generate_messages_py.dir/clean
 
 project/CMakeFiles/project_generate_messages_py.dir/depend:
-	cd /home/m/mico2178/baxter_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/m/mico2178/baxter_ws/src /home/m/mico2178/baxter_ws/src/project /home/m/mico2178/baxter_ws/build /home/m/mico2178/baxter_ws/build/project /home/m/mico2178/baxter_ws/build/project/CMakeFiles/project_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src/project /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/project /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/project/CMakeFiles/project_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : project/CMakeFiles/project_generate_messages_py.dir/depend
 

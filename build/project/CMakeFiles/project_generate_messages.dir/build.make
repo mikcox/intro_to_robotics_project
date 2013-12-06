@@ -31,11 +31,14 @@ CMAKE_COMMAND = /usr/bin/cmake
 # The command to remove a file.
 RM = /usr/bin/cmake -E remove -f
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/m/mico2178/baxter_ws/src
+CMAKE_SOURCE_DIR = /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/m/mico2178/baxter_ws/build
+CMAKE_BINARY_DIR = /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build
 
 # Utility rule file for project_generate_messages.
 
@@ -53,10 +56,10 @@ project/CMakeFiles/project_generate_messages.dir/build: project_generate_message
 .PHONY : project/CMakeFiles/project_generate_messages.dir/build
 
 project/CMakeFiles/project_generate_messages.dir/clean:
-	cd /home/m/mico2178/baxter_ws/build/project && $(CMAKE_COMMAND) -P CMakeFiles/project_generate_messages.dir/cmake_clean.cmake
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/project && $(CMAKE_COMMAND) -P CMakeFiles/project_generate_messages.dir/cmake_clean.cmake
 .PHONY : project/CMakeFiles/project_generate_messages.dir/clean
 
 project/CMakeFiles/project_generate_messages.dir/depend:
-	cd /home/m/mico2178/baxter_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/m/mico2178/baxter_ws/src /home/m/mico2178/baxter_ws/src/project /home/m/mico2178/baxter_ws/build /home/m/mico2178/baxter_ws/build/project /home/m/mico2178/baxter_ws/build/project/CMakeFiles/project_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/src/project /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/project /home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/build/project/CMakeFiles/project_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : project/CMakeFiles/project_generate_messages.dir/depend
 

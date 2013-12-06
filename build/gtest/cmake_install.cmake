@@ -2,7 +2,7 @@
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/m/mico2178/baxter_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/colab/ros/ws_baxter/src/cox_campuzano_ian_project/intro_to_robotics_project/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
