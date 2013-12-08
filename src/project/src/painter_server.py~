@@ -8,7 +8,7 @@ import os
 from svg.src.svg.path import parse_path, Path, Line, QuadraticBezier
 
 #global step size to use for generating points
-stepSize = 0.5
+stepSize = 1
 
 #list in which to store all of our generated 3D points
 pointList = []
@@ -69,16 +69,21 @@ def handle_paint(req):
 	xmin = min(xlist)
 	ymax = max(ylist)
 	ymin = min(ylist)
-	xlist[0] = (xlist[0]/(xmax-xmin))*(0.5)+0.1
-	ylist[0] = (ylist[0]/(ymax-ymin))*(0.5)+0.1	
-	command = "rosrun baxter_examples ik_service_client.py -l left -x "+str(zlist[0])+" -y "+str(xlist[0])+" -z "+str(ylist[0])
+	xlist[0] = (xlist[0]/(xmax-xmin))*(0.4)+0.1
+	ylist[0] = (ylist[0]/(ymax-ymin))*(0.4)+0.1
+	for i in range(0,50):
+		print str(zlist[i])+","+str((xlist[i]/(xmax-xmin))*(0.4)+0.1)+","+str((ylist[i]/(ymax-ymin))*(0.4)+0.1)	
+	'''command = "rosrun baxter_examples ik_service_client.py -l left -x "+str(zlist[0])+" -y "+str(xlist[0])+" -z "+str(ylist[0])
 	for i in range(0, 10):
 		os.system(command)
 	for i in range(0, len(xlist)):
-		xlist[i] = (xlist[i]/(xmax-xmin))*(0.5)+0.1
-		ylist[i] = (ylist[i]/(ymax-ymin))*(0.5)+0.1	
+		xlist[i] = (xlist[i]/(xmax-xmin))*(0.4)+0.1
+		ylist[i] = 0.5-(ylist[i]/(ymax-ymin))*(0.4)+0.1	
 		command = "rosrun baxter_examples ik_service_client.py -l left -x "+str(zlist[i])+" -y "+str(xlist[i])+" -z "+str(ylist[i])
 		os.system(command)
+	command = "rosrun baxter_examples ik_service_client.py -l left -x 0.8 -y "+str(xlist[len(xlist)-1])+" -z "+str(ylist[len(ylist)-1])
+	os.system(command)
+	'''
 	return status
 
 def painter_server():
@@ -139,23 +144,23 @@ def penJump(lastEndx, lastEndy, startx, starty):
 	global zlist
 	#print "PEN JUMP FROM ("+str(lastEndx)+", "+str(lastEndy)+") to ("+str(startx)+", "+str(starty)+")"
 	z = 0.9
-	while z >= 0.7:
+	while z >= 0.8:
 		xlist.append(lastEndx)
 		ylist.append(lastEndy)
 		zlist.append(z)
 		pointList.append("-x "+str(z)+" -y "+str(lastEndx)+" -z "+str(lastEndy))
-		z -= 0.01
+		z -= 0.1
 	for i in range(0, 99):
 		xlist.append(lastEndx + i*(startx-lastEndx)/100)
 		ylist.append(lastEndy + i*(starty-lastEndy)/100)
 		zlist.append(z)
 		pointList.append("-x "+str(z)+" -y "+str(lastEndx + i*(startx-lastEndx)/100)+" -z "+str(lastEndy + i*(starty-lastEndy)/100))
-	while z <= 0.9:
+	while z <= 0.8:
 		xlist.append(startx)
 		ylist.append(starty)
 		zlist.append(z)
 		pointList.append("-x "+str(z)+" -y "+str(startx)+" -z "+str(starty))
-		z += 0.01
+		z += 0.1
 	
 
 if __name__ == "__main__":
